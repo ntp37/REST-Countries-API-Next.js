@@ -9,8 +9,8 @@ The project to get countries data from REST API to render Front-End using Next.j
 * Tailwind CSS
 
 ## Getting Started
-1. run command `git clone <repository_link>`
-2. run command `cd <folder_name>`
-3. install packages with command `npm install`
-4. run the development server with command `npm run dev`
+1. Run command `git clone <repository_link>`
+2. Run command `cd <folder_name>`
+3. Install packages with command `npm install`
+4. Run the development server with command `npm run dev`
 5. Open project with localhost your browser to see the result.
