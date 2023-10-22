@@ -29,9 +29,9 @@ export default async function Page({ params }) {
 
   return (
     <>
-      <div className="country-detail bg-slate-50">
+      <div className="country-detail bg-neutral-50">
         {countryData.map((details) => (
-          <div className="p-3 sm:p-9 shadow-xl" id={details.name.common} key={Number(params.country)}>
+          <div className="p-3 sm:p-9 shadow-2xl" id={details.name.common} key={Number(params.country)}>
             <div className="flex flex-col gap-11">
               <div className="flex items-center justify-center">
                 <Image priority style={{width: 'auto', height: '9.5rem'}} width={400} height={250} src={details.flags.png} alt={`${details.name.common}-flag`} />

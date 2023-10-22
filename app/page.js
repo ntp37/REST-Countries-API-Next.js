@@ -12,9 +12,6 @@ export default async function Home() {
 
   return (
     <>
-      <div className="text-center text-2xl font-semibold">
-        <h1>All Countries</h1>
-      </div>
       <SearchFillter data={data} />
     </>
   );

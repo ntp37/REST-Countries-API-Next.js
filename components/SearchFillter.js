@@ -2,6 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import CardList from "./CardList";
+import InputField from "./InputField";
 
 export default function SearchFillter({ data }) {
   const [query, setQuery] = useState("");
@@ -18,15 +19,8 @@ export default function SearchFillter({ data }) {
 
   return (
     <>
-      <div className="my-5">
-        <input
-          type="text"
-          placeholder="Search for countries"
-          className="w-full h-12 p-4 shadow-lg"
-          onChange={(e) => setQuery(e.target.value)}
-        />
-      </div>
-      <div className="countries-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
+      <InputField setQuery={setQuery} />
+      <div className="countries-container px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
         {filtered.map((countries, index) => (
           <CardList key={index + 1} countries={countries} index={index + 1} />
         ))}

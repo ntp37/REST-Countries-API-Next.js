@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className='mymain'>
       <body className={openSans.className}>
-        <main className="flex min-h-screen flex-col bg-slate-100">
+        <main className="flex min-h-screen flex-col bg-neutral-50">
           <div className='container mx-auto p-3 sm:p-7'>
             {children}
           </div>
