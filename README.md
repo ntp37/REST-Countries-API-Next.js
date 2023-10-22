@@ -7,6 +7,7 @@ The project to get countries data from REST API to render Front-End using Next.j
 ### Tools
 * Next.js
 * Tailwind CSS
+* React Icons
 
 ## Getting Started
 1. Run command `git clone <repository_link>`
