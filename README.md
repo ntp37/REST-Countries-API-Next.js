@@ -2,7 +2,7 @@
 The project to get countries data from REST API to render Front-End using Next.js
 <br/>
 
-[Live site](https://rest-countries-api-next-js.vercel.app/)
+[Live site](https://ntp37-rest-countries-api-next-js.vercel.app/)
 
 ### Tools
 * Next.js
